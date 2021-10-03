@@ -16,5 +16,10 @@ namespace Core.Controllers
             var list = categoryManager.GetListAll();
             return View(list);
         }
+
+        public IActionResult category()
+        {
+            return View();
+        }
     }
 }
